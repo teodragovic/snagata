@@ -11,6 +11,8 @@ author: Stick
 
 {% youtube c9YGhDJzy-M %}
 
+Warm-up
+
 Pin press  
 &nbsp; - 4x1 @ 90kg  
 &nbsp; - 2x1 @ 94kg  
