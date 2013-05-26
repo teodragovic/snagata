@@ -1,0 +1,30 @@
+---
+layout: post
+title: "fejk meet 21.05.2013."
+date: 2013-05-21 11:58
+comments: true
+categories: [trening, squat, bench, deadlift]
+author: Stick
+---
+
+{% youtube DvkHs1r69V8 %}
+
+BW 73,7kg
+
+SQ - 134  
+SQ - 146  
+SQ - 148  
+
+BP - 92  
+BP - 95  
+BP - 98 (fail)  
+
+DL - 180  
+DL - 200 (fail)  
+
+Na snimci nema fejk openera za svaki lift (126kg SQ, 90kg BP i 170kg DL). 
+
+
+
+
+

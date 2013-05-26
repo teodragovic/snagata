@@ -2,18 +2,18 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://PetaKolona.github.io/snagata
+title: Snagata
+subtitle: Training log
+author: Peta Kolona
 simple_search: http://google.com/search
-description:
+description: Powerlifting training log (and octopress/git experiment)
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
 # Additionally, %o will give you the ordinal representation of the day
-date_format: "ordinal"
+date_format: "%F"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
@@ -65,12 +65,12 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # Github repositories
 github_user:
 github_repo_count: 0
-github_show_profile_link: true
-github_skip_forks: true
+github_show_profile_link: false
+github_skip_forks: false
 
 # Twitter
 twitter_user:
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
@@ -90,7 +90,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: snagata
 disqus_show_comment_count: false
 
 # Google Analytics
