@@ -12,6 +12,7 @@ function getNav() {
   });
 }
 
+/*
 function addSidebarToggler() {
   if(!$('body').hasClass('sidebar-footer')) {
     $('#content').append('<span class="toggle-sidebar"></span>');
@@ -36,6 +37,7 @@ function addSidebarToggler() {
   }
   if (sections.length >= 3){ $('aside.sidebar').addClass('thirds'); }
 }
+*/
 
 function testFeatures() {
   var features = ['maskImage'];

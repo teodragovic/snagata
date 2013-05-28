@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "fejk meet 21.05.2013."
+title: "Fejk meet 21.05.2013."
 date: 2013-05-21 11:58
 comments: true
 categories: [trening, squat, bench, deadlift]
