@@ -19,4 +19,4 @@ Crunches - 3x20
 
 Drugi trening bez zagrijavanja, malo čudan osjećaj pa opet nisam htio forsirat s težinama. Pin press sa niže razine. U početku se činilo isti kurac kao i prije ali već na 90kg je postalo zajebano. Prednji čučanj isto dosta težak. Valjda jer sam dan prije radio stražnji sa jako sličnom tehnikom.
 
-Probao [hyphy mud (http://www.youtube.com/watch?v=HRovpd524XA). Zatvorski booster u kombinaciji instant kave i kole zero. Okus odvratan, boost nikakav. -1.
+Probao [hyphy mud (http://www.youtube.com/watch?v=HRovpd524XA)]. Zatvorski booster u kombinaciji instant kave i kole zero. Okus odvratan, boost nikakav -1.
