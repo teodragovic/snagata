@@ -12,8 +12,8 @@ author: Stick
 Warm-up  
 
 Pin press  
-&nbps; - 2x1 @ 85kg   
-&nbps; - 6x1 @ 87kg   
+&nbsp; - 2x1 @ 85kg   
+&nbsp; - 6x1 @ 87kg   
 Prednji SQ - 4x5 @ 60kg   
 
 Leg press - 3x20 @ 70kg    
