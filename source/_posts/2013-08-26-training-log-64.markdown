@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Training log #64"
-date: 2013-08-29
+date: 2013-08-26
 comments: true
 categories: [trening, military press, decline bench press, bench press]
 author: Stick

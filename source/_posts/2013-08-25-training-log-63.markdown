@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Training log #63"
-date: 2013-08-28
+date: 2013-08-25
 comments: true
 categories: [trening, deadlift]
 author: Stick
