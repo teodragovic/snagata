@@ -9,6 +9,8 @@ author: Stick
 
 ### Week 2, Day 3   
 
+{% youtube Cu07ZDY6cN8 %}  
+
 Warm-up  
 
 BP  
