@@ -13,17 +13,17 @@ Warm-up
 
 **superserije x3** 
 
-A1 Squat x6 
-A2 Iskorak x12 
-A3 Nožna ekstenzija x24
+A1 Squat x6   
+A2 Iskorak x12   
+A3 Nožna ekstenzija x24  
 
-B1 Deadlift x6
-B2 Nožna fleksija x12
-B3 Hiperekstenzija x24
+B1 Deadlift x6  
+B2 Nožna fleksija x12  
+B3 Hiperekstenzija x24  
 
-Facepulls 3x15 @ 15kg
-OH shrug 3x15 @ 30kg
-Rotatori 3x15 @ 2,5kg
+Facepulls 3x15 @ 15kg  
+OH shrug 3x15 @ 30kg  
+Rotatori 3x15 @ 2,5kg  
 
 Brzo hodanje na kosoj traci 20 min.
 
