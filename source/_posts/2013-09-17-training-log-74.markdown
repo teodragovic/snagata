@@ -3,15 +3,15 @@ layout: post
 title: "Training log #74"
 date: 2013-09-16
 comments: true
-categories: [trening, military press]
+categories: [trening]
 author: Stick
 ---
 
-### Week 1, Day 4  
+### Week 1, Day 4
 
 Warm-up  
 
-**superserije x3** 
+**superserije x3**  
 
 A1 Military press x6 @ 30-35kg  
 A2 Lateralno odručenje bučicama x12 @ 4kg  
