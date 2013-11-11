@@ -92,34 +92,34 @@
 	"buffers":
 	[
 		{
-			"file": "source/_posts/2013-09-25-training-log-75.markdown",
+			"file": "source/_posts/2013-11-11-training-log-103.markdown",
 			"settings":
 			{
-				"buffer_size": 919,
+				"buffer_size": 665,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/_posts/2013-09-25-training-log-76.markdown",
+			"file": "source/_posts/2013-11-11-training-log-104.markdown",
 			"settings":
 			{
-				"buffer_size": 656,
+				"buffer_size": 554,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/_posts/2013-09-25-training-log-77.markdown",
+			"file": "source/_posts/2013-11-11-training-log-105.markdown",
 			"settings":
 			{
-				"buffer_size": 289,
+				"buffer_size": 544,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/_posts/2013-09-25-training-log-78.markdown",
+			"file": "source/_posts/2013-11-11-training-log-106.markdown",
 			"settings":
 			{
-				"buffer_size": 755,
+				"buffer_size": 987,
 				"line_ending": "Windows"
 			}
 		}
@@ -131,6 +131,14 @@
 		"selected_items":
 		[
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
 				"packa",
 				"Package Control: Remove Package"
 			],
@@ -140,10 +148,6 @@
 			],
 			[
 				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -176,7 +180,44 @@
 	},
 	"file_history":
 	[
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-03-training-log-102.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-03-training-log-101.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-31-training-log-100.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-29-training-log-99.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-29-training-log-98.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-29-training-log-97.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-25-training-log-96.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-25-training-log-95.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-25-training-log-94.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-19-training-log-93.markdown",
+		"/E/Dropbox/dev/sites/snagata/.gitignore",
+		"/E/Dropbox/dev/sites/snagata/_config.yml",
+		"/E/Dropbox/dev/sites/snagata/.git/refs/heads/master",
+		"/E/Dropbox/dev/sites/snagata/.git/refs/heads/source",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-19-training-log-92.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-19-training-log-91.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-15-training-log-90.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-14-training-log-89.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-07-training-log-87.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-14-training-log-88.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-07-training-log-84.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-07-training-log-85.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-07-training-log-86.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-30-training-log-81.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-30-training-log-80.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-03-training-log-83.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-30-training-log-79.markdown",
+		"/D/00 NOVAC/TUTS/00 CSS-TRICKS/CSS-Tricks - The Big v10 Redesign Project/01-Inventory.markdown",
+		"/D/00 NOVAC/TUTS/00 CSS-TRICKS/CSS-Tricks - The Big v10 Redesign Project/02-Goals.markdown",
+		"/E/Dropbox/dev/codepen/js/index.js",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-25-training-log-78.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-25-training-log-77.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-25-training-log-76.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-25-training-log-75.markdown",
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-17-training-log-74.markdown",
+		"/E/Dropbox/dev/sites/snagata/Rakefile",
+		"/D/00 NOVAC/DESIGN/04 SNAGATA/octopress/source/_posts/2013-09-17-training-log-74.markdown",
+		"/D/00 NOVAC/DESIGN/04 SNAGATA/octopress/.gitignore",
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-17-training-log-73.markdown",
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-12-training-log-72.markdown",
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-09-12-training-log-71.markdown",
@@ -187,7 +228,6 @@
 		"/D/00 NOVAC/DESIGN/04 SNAGATA/octopress/source/_posts/2013-09-09-training-log-70.markdown",
 		"/D/00 NOVAC/DESIGN/04 SNAGATA/octopress/source/_posts/2013-09-12-training-log-72.markdown",
 		"/D/00 NOVAC/DESIGN/04 SNAGATA/octopress/source/_posts/2013-09-17-training-log-73.markdown",
-		"/D/00 NOVAC/DESIGN/04 SNAGATA/octopress/source/_posts/2013-09-17-training-log-74.markdown",
 		"/D/00 NOVAC/DESIGN/01 KOVA/www/site/wp-content/themes/bones/header.php",
 		"/C/Users/STICK/AppData/Local/Temp/Rar$DI00.715/bootstrap.css",
 		"/D/00 NOVAC/DESIGN/04 SNAGATA/octopress/source/javascripts/octopress.js",
@@ -267,43 +307,7 @@
 		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-23-training-log-42.markdown",
 		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-17-training-log-39.markdown",
 		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-21-training-log-41.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-21-training-log-40.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-16-training-log-38.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-13-training-log-36.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-10-training-log-33.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-11-training-log-34.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-12-training-log-35.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-09-training-log-32.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-08-training-log-31.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-06-rehab-log-1.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-03-training-log-30.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-02-training-log-29.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-01-training-log-28.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-29-training-log-27.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-06-training-log-30.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-06-training-log-29.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-06-training-log-28.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-26-training-log-26.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-24-training-log-25.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-25-training-log-25.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-20-training-log-24.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-19-training-log-23.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-18-training-log-22.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-17-training-log-21.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-21-training-log-24.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-14-training-log-19.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-15-training-log-20.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-12-training-log-17.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-09-training-log-15.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-12-training-log-16.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-12-training-log-18.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-09-training-log-14.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-07-training-log-13.markdown",
-		"/C/Users/STICK/Desktop/t.css",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-06-food-log-1.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-05-training-log-12.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-04-training-log-11.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-06-03-training-log-10.markdown"
+		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-21-training-log-40.markdown"
 	],
 	"find":
 	{
@@ -323,6 +327,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"",
+			"/a",
+			"a href=\"javascript:void(0)\"",
+			"\">",
+			"figure",
 			"post",
 			"new_pos",
 			"get_footer",
@@ -363,18 +372,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "source/_posts/2013-09-25-training-log-75.markdown",
+					"file": "source/_posts/2013-11-11-training-log-103.markdown",
 					"settings":
 					{
-						"buffer_size": 919,
+						"buffer_size": 665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								568,
-								568
+								60,
+								60
 							]
 						],
 						"settings":
@@ -433,18 +442,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "source/_posts/2013-09-25-training-log-76.markdown",
+					"file": "source/_posts/2013-11-11-training-log-104.markdown",
 					"settings":
 					{
-						"buffer_size": 656,
+						"buffer_size": 554,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								656,
-								656
+								303,
+								303
 							]
 						],
 						"settings":
@@ -503,18 +512,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "source/_posts/2013-09-25-training-log-77.markdown",
+					"file": "source/_posts/2013-11-11-training-log-105.markdown",
 					"settings":
 					{
-						"buffer_size": 289,
+						"buffer_size": 544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								289,
-								289
+								183,
+								183
 							]
 						],
 						"settings":
@@ -573,18 +582,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "source/_posts/2013-09-25-training-log-78.markdown",
+					"file": "source/_posts/2013-11-11-training-log-106.markdown",
 					"settings":
 					{
-						"buffer_size": 755,
+						"buffer_size": 987,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								144,
-								144
+								985,
+								985
 							]
 						],
 						"settings":
@@ -675,6 +684,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
 	"replace":
 	{
 		"height": 0.0
