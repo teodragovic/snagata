@@ -92,7 +92,23 @@
 	"buffers":
 	[
 		{
-			"file": "source/_posts/2013-11-11-training-log-103.markdown",
+			"file": "source/_posts/2013-12-05-training-log-119.markdown",
+			"settings":
+			{
+				"buffer_size": 251,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/_posts/2013-12-05-training-log-120.markdown",
+			"settings":
+			{
+				"buffer_size": 446,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/_posts/2013-12-09-training-log-121.markdown",
 			"settings":
 			{
 				"buffer_size": 665,
@@ -100,26 +116,10 @@
 			}
 		},
 		{
-			"file": "source/_posts/2013-11-11-training-log-104.markdown",
+			"file": "source/_posts/2013-12-09-training-log-122.markdown",
 			"settings":
 			{
-				"buffer_size": 554,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/_posts/2013-11-11-training-log-105.markdown",
-			"settings":
-			{
-				"buffer_size": 544,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/_posts/2013-11-11-training-log-106.markdown",
-			"settings":
-			{
-				"buffer_size": 987,
+				"buffer_size": 705,
 				"line_ending": "Windows"
 			}
 		}
@@ -127,9 +127,13 @@
 	"build_system": "Packages/Compass/Compass.sublime-build",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 86.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -151,10 +155,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"disa",
 				"Package Control: Disable Package"
 			],
@@ -163,7 +163,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 498.0
+		"width": 450.0
 	},
 	"console":
 	{
@@ -180,6 +180,30 @@
 	},
 	"file_history":
 	[
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-26-training-log-115.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-27-training-log-116.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-29-training-log-117.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-12-02-training-log-118.markdown",
+		"/E/Dropbox/dev/sites/snagata/_config.yml",
+		"/E/Dropbox/dev/sites/snagata/.editorconfig",
+		"/C/Users/STICK/Desktop/.editorconfig",
+		"/E/Dropbox/dev/sites/snagata/source/CNAME",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-30-test.markdown",
+		"/E/Dropbox/dev/sites/index.php",
+		"/E/Dropbox/dev/sites/teodragovic/_config.yml",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-26-training-log-111.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-26-training-log-112.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-26-training-log-113.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-26-training-log-114.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-18-training-log-108.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-18-training-log-110.markdown",
+		"/C/Users/STICK/AppData/Roaming/Sublime Text 2/Settings/Session.sublime_session",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-11-training-log-103.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-11-training-log-104.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-11-training-log-105.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-11-training-log-106.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-18-training-log-109.markdown",
+		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-18-training-log-107.markdown",
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-03-training-log-102.markdown",
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-11-03-training-log-101.markdown",
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-31-training-log-100.markdown",
@@ -191,7 +215,6 @@
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-25-training-log-94.markdown",
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-19-training-log-93.markdown",
 		"/E/Dropbox/dev/sites/snagata/.gitignore",
-		"/E/Dropbox/dev/sites/snagata/_config.yml",
 		"/E/Dropbox/dev/sites/snagata/.git/refs/heads/master",
 		"/E/Dropbox/dev/sites/snagata/.git/refs/heads/source",
 		"/E/Dropbox/dev/sites/snagata/source/_posts/2013-10-19-training-log-92.markdown",
@@ -284,30 +307,7 @@
 		"/C/Users/STICK/.ssh/id_rsa.pub",
 		"/C/Users/STICK/.ssh/id_rsa",
 		"/C/Users/STICK/.ssh/known_hosts",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-08-03-training-log-52.markdown",
-		"/E/DESIGN/01 KOVA/www/index.php",
-		"/E/DESIGN/01 KOVA/www/site/wp-config-sample.php",
-		"/E/DESIGN/01 KOVA/www/site/wp-blog-header.php",
-		"/C/wamp/alias/sqlbuddy.conf",
-		"/C/wamp/alias/phpmyadmin.conf",
-		"/E/DESIGN/01 KOVA/www/.htaccess",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-31-training-log-50.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-30-training-log-49.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-29-training-log-48.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-27-training-log-47.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-26-training-log-46.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-25-training-log-45.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-24-training-log-44.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-27-training-log-46.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-23-training-log-43.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-22-training-log-42.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-19-training-log-40.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-20-training-log-41.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-15-training-log-37.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-23-training-log-42.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-17-training-log-39.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-21-training-log-41.markdown",
-		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-07-21-training-log-40.markdown"
+		"/E/DESIGN/04 SNAGATA/octopress/source/_posts/2013-08-03-training-log-52.markdown"
 	],
 	"find":
 	{
@@ -327,6 +327,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"documen",
+			"2x6",
+			"4x12",
+			"5x6",
+			"3x12",
+			"4x6",
+			"CSSOff",
+			"3x",
+			"4x",
+			"2x",
 			"class=\"",
 			"/a",
 			"a href=\"javascript:void(0)\"",
@@ -372,18 +382,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "source/_posts/2013-11-11-training-log-103.markdown",
+					"file": "source/_posts/2013-12-05-training-log-119.markdown",
 					"settings":
 					{
-						"buffer_size": 665,
+						"buffer_size": 251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								60,
-								60
+								251,
+								251
 							]
 						],
 						"settings":
@@ -442,18 +452,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "source/_posts/2013-11-11-training-log-104.markdown",
+					"file": "source/_posts/2013-12-05-training-log-120.markdown",
 					"settings":
 					{
-						"buffer_size": 554,
+						"buffer_size": 446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								303,
-								303
+								446,
+								446
 							]
 						],
 						"settings":
@@ -512,18 +522,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "source/_posts/2013-11-11-training-log-105.markdown",
+					"file": "source/_posts/2013-12-09-training-log-121.markdown",
 					"settings":
 					{
-						"buffer_size": 544,
+						"buffer_size": 665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								183,
-								183
+								517,
+								517
 							]
 						],
 						"settings":
@@ -582,18 +592,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "source/_posts/2013-11-11-training-log-106.markdown",
+					"file": "source/_posts/2013-12-09-training-log-122.markdown",
 					"settings":
 					{
-						"buffer_size": 987,
+						"buffer_size": 705,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								985,
-								985
+								200,
+								200
 							]
 						],
 						"settings":
@@ -708,7 +718,7 @@
 		[
 			[
 				"",
-				"/E/Dropbox/dev/sites/kova/kova.sublime-project"
+				"/E/Dropbox/dev/sites/teodragovic/teodragovic.sublime-project"
 			]
 		],
 		"width": 380.0

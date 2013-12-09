@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://teodragovic.github.io
+url: http://petakolona.com/snagata
 title: Snagata
 subtitle: Training log
 author: Peta Kolona
 simple_search: http://google.com/search
-description: Powerlifting training log (and octopress/git experiment)
+description: Powerlifting training log
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -16,7 +16,7 @@ description: Powerlifting training log (and octopress/git experiment)
 date_format: "%F"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /snagata/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,10 +26,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /snagata
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/snagata
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
