@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Defka 2014 pt.1"
+date: 2014-02-02
+comments: true
+categories: [prehrana]
+author: Stick
+---
+
+### Uvod
+
+U lipnju (ili svibnju, ne sjećam se točno) 2010. sam, nakon čitanja [ovog članka][1], radiklanim gladovanjem skinuo 10-15kg u mjesec dana. Nakon povratka iz Splita u Rijeku, došlo je do pada discipline po pitanju prehrane tako da sam zadnjih par mjeseci 2013. proveo ubijajući se na treningu da bi održao istu kilažu ili usporio debljanje zbog učestalog junkanja. Od nove godine da dovedem CNS u red i napravim generalni reset odlučio sam reprizirati moju najuspješniju dijetu ikad uz neke modifikacije sa par korisnih i trikova koji su se pokazali uspješi u ovih par godina treninga.
+
+### Dijeta
+
+Za prvi ciklus od 4 tjedna ideja je ovakva: keto na max. 1500kcal (dnevni unos je varirao, znalo je biti i ispod te brojke ali rijetko iznad), bez punjenja, regularni teški powerbuilding trening za hrpom volumena. Bio sam na 3 obroka dnevno, glavnina proteina iz posnog i wheya uz malo mesa i jaja. Radi zadržavanja uredne probave nastojao sam unostiti dosta povrća, koliko je bilo moguće. Puno vode i kave, suplementiranje vitamina i minerala (prvo šumeće tablete iz DM-a, nako toga Alpha men od MyProteina). Također sam u sredini defke počeo uzimati 15g kreatina prvi put otkad treniram. Dao mi je dodatan boost u 3. tjednu ali je to brzo isparilo kako sam se nastavio prazniti.
+
+Prvi tjedan tijelo je funkcioniralo normalno i najveći problem je bila psiha i cravingsi. Drugi tjedan je glad prestala ali je uletila slabost i manjak energije na treningu. Treći tjedan sam počeo uzimati kreatin i pojačao suplementaciju vitamina i minerala pa sam postigao neki balans di nisam bio gladan a treninzi su išli solidno. Zadnji tjedan sam opet bio bezvoljan i slab. Proveo sam dva off dana praktički ležeći u krevetu ko bolesnik. Tijelo je bilo na rubu gašenja.
+
+Pad na vagi i u mjerama nije išao linearno i bilo je oscilacija. Ovo je tablica sa mjerama koje sam uzeo svaki vikend ujutro natašte.
+
+<div class="embed-video-container"><iframe height="210" frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AqcWi5XS2oqxdEtNaGhTdUoxU0RrRVVYV0hwMnZDTmc&single=true&gid=1&output=html&widget=true'></iframe></div>
+
+### Punjenje
+
+Punjenje sam odradio 01.02. nakon treninga. Prva dva obroka u danu su bila standardni keto. Tijekom punjenja pojeo sam:
+
+- pirošku od višnje
+- malu pogačicu sa sirom
+- jedan baguette iz Lidla
+- pola francuza iz pekare
+- dve vrste pekmeza/voćnog namaza (ukupno oko 300-350g)
+- popio litru nemasnog mlijeka
+- popio shake - mjerica wheya i 5g kreatina
+- 200g keksa sa zobi, pšenicom i brusnicom iz Lidla
+- malo čajnih keksiju iz Mlinara (oko 250g)
+
+{% img images/punjenje02.JPG %}
+{% img images/punjenje04.JPG %}
+{% img images/punjenje03.JPG %}
+
+Glavninu navedenog (čitaj 80%) riješio sam u obroku nakon treninga. Znao sam da zbog dijete ne mogu u jednom obroku pojesti dovoljno da se napunim pa sam planirao rasporediti na dva ali sam bio prehalapljiv i prejeo se i napuhnuo u tom prvom obroku. Nakon njega sam pojeo nešto malo keksa dok sam gledao serije i zaspao preliven navalom inzulina. Probudio sam se oko 5.30 i riješio ostatak keksiju, kruha i pekmeza uz pola litre mlijeka.
+
+Stanje nakon punjenja je također u tablici i ispada da sam u dva obroka povratio zadnjih mjesec dana gladovanja ali vjerojem da će se to još izbalansirati kroz naredna dva tjedna.
+
+### Zaključci
+
+Mjere nisu neki pokazatelj ali dijeta je brutalno dijelovala i dobro me srezala što je vidljivo iz slika (staviti ću ih čim ih obradim). Zaključio sam da je za mene 3 tjedna maksimalni dopustivi period bez punjenja. Također, ovakve dijete nije najpametnije tempirati za zimu kad je izbor povrća mali a apetit velik. Ukoliko budem ponavljao ovaj ciklus, prije početka trebam napraviti tjedan dana detoxa od stimulansa jer kava jako brzo prestane biti djelotvorna. Sljedeće punjenje ću ograničiti na 3 artikla iz pekare pošto mi je to nova mjera obroka prije nego mi postane muka. A kekse ću natapati u wheyu jer mlijeko napuhuje. 
+
+### Drugi ciklus
+
+Za drugi ciklus plan je nastaviti sa ketom ali ubaciti 4. obrok u prehranu i dignuti kalorije za oko 400kcal. Ovaj period će trajati 2 tjedna do sljedećeg punjenja nakog čega ću procijeniti da li mogu opet dignuti kalorije i u kojoj mjeri.
+
+[1]: http://www.nacional.hr/clanak/26184/caciceva-dijeta-32-kilograma-za-6-mjeseci
