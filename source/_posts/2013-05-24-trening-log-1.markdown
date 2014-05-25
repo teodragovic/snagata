@@ -3,7 +3,7 @@ layout: post
 title: "Training log #1"
 date: 2013-05-24
 comments: true
-categories: [trening, squat, bench]
+categories: [trening, front squat, bench press]
 author: Stick
 ---
 

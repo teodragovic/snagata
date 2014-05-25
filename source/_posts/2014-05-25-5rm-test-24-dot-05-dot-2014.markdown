@@ -1,0 +1,32 @@
+---
+layout: post
+title: "5RM test 24.05.2014."
+date: 2014-05-24
+comments: true
+categories: [trening, squat, military press, bench press, deadlift]
+author: Stick
+---
+
+### Training log #211    
+
+{% youtube bsWQi6t8st4 %}
+
+## Squat
+
+- 5x115kg  
+- 4x120kg  
+
+## Military press
+
+- 5x55kg  
+- 5x57.5kg  
+
+## Bench press
+
+- 5x85kg  
+- 4x87.5kg  
+
+## Deadlift
+
+- 3x130kg  
+- 5x130kg  

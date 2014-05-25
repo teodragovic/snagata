@@ -3,7 +3,7 @@ layout: post
 title: "Fejk meet 21.05.2013."
 date: 2013-05-21 11:58
 comments: true
-categories: [trening, squat, bench, deadlift]
+categories: [trening, squat, bench press, deadlift]
 author: Stick
 ---
 

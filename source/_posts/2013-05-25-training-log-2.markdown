@@ -3,7 +3,7 @@ layout: post
 title: "Training log #2"
 date: 2013-05-25
 comments: true
-categories: [trening, bench, squat]
+categories: [trening, pin press, box squat]
 author: Stick
 ---
 

@@ -17,7 +17,7 @@ A2 Zgibovi podhvat 10,8,8,6,7 @ bw
 B1 Uski bench press 3x12, 1x10 @ 55kg   
 B2 Biceps pregib na Scott mašini 2x17, 2x16 @ 20kg   
 
-C1 Dips 16,14,12,12 
+C1 Dips 16,14,12,12   
 C2 Hammer curls 4x14 @ 8kg  
 
 D1 Zadnje rame 3x20 @ 3kg  

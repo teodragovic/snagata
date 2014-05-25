@@ -3,7 +3,7 @@ layout: post
 title: "Training log #3"
 date: 2013-05-26
 comments: true
-categories: [trening, deadlift, press]
+categories: [trening, rack pull, military press]
 author: Stick
 ---
 
