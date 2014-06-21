@@ -13,7 +13,7 @@ Traka 10 min. 7.2 kmph
 
 Warm-up   
 
-Čučanj 3x5 @ 102kg  
+Čučanj 3x5 @ 102.5kg  
 Bench press 3x5 @ 80kg  
 Deadlift 1x5 @ 125kg  
 
