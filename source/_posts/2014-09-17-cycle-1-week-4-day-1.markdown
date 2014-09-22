@@ -9,10 +9,10 @@ author: Stick
 
 Bench press  
 - 1x10 @ 67.5kg  
-- 2x10 @ 60kg 
+- 2x10 @ 60kg   
 - 2x10 @ 57.5kg   
 
-Sklekovi 18, 20, 15, 16
+Sklekovi 18, 20, 15, 16  
 Kosi potisak bučicama 4x10 @ 17.5kg  
 
 Biceps pregib šipkom  
