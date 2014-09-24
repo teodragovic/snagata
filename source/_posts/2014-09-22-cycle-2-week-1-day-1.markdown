@@ -10,14 +10,14 @@ author: Stick
 Bench press 5x5 @ 67.5kg  
 
 Ravni potisak bučicama 4x12 @ 20kg  
-Incline chest press mašina 4x12 @ 35kg
-+ 8x28kg  
-+ 10x21kg 
+Incline chest press mašina 4x12 @ 35kg  
++ 8x28kg   
++ 10x21kg  
 + 14x14kg   
 
-Biceps pregib šipkom 4x10-12 + drop setovi
+Biceps pregib šipkom 4x10-12 + drop setovi  
 
-Hammer 4x8-10 + drop setovi
+Hammer 4x8-10 + drop setovi  
 
 Trčanje 1000m  
 
