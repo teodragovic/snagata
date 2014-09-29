@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "cycle 2 week 2 day 3"
+title: "cycle 2 week 1 day 3"
 date: 2014-09-27
 comments: true
 categories: [trening]
