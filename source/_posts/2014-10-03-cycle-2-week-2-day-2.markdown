@@ -7,7 +7,7 @@ categories: [trening]
 author: Stick
 ---
 
-Box jumps 5x3
+Box jumps 5x3  
 
 Čučanj 5x5 @ 87.5kg  
 
