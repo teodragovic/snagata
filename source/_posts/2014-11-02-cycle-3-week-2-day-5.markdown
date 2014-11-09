@@ -9,7 +9,7 @@ author: Stick
 
 Deadlift  
 - 1x8 @ 70kg  
-- 1x8 @ 90kg 
+- 1x8 @ 90kg  
 - 1x7 @ 100kg   
 
 GM 4x10 @ 60kg  
