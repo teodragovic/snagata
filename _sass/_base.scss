@@ -1,20 +1,41 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+
+/* GLOBAL DEFAULTS */
+
+* { box-sizing: border-box; }
+
+// Reset
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+table, th, td, caption,
+figure,
+hr {
     margin: 0;
     padding: 0;
 }
 
+html,
+body {
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+    background-color: $background-color;
+    color: $text-color;
+    font-size: percentage($base-font-size / 16);
+}
 
 
 /**
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font: $base-font-weight 100%/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -23,6 +44,13 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
+    position: relative;
+    margin: 0 auto;
+    // Remove gray highlight when tapping links in mobile Safari
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -42,9 +70,16 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-img {
+img, video {
     max-width: 100%;
-    vertical-align: middle;
+    height: auto;
+    font-style: italic;
+}
+
+
+img[width],
+img[height] {
+    max-width: none;
 }
 
 
@@ -60,7 +95,14 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
+textarea {
+    resize: vertical;
+    &:active,
+    &:focus {
+        outline: none;
+        cursor: text;
+    }
+}
 
 /**
  * Lists
@@ -94,9 +136,9 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+/*     &:visited {
+    color: darken($brand-color, 15%);
+} */
 
     &:hover {
         color: $text-color;
@@ -104,7 +146,12 @@ a {
     }
 }
 
-
+hr {
+    display: block;
+    border: 0;
+    margin-bottom: em($spacing-unit / 2px);
+    border-bottom: 1px dashed $grey-color;
+}
 
 /**
  * Blockquotes
@@ -151,6 +198,9 @@ pre {
 }
 
 
+// Table globals
+table { width: 100%; }
+
 
 /**
  * Wrapper
@@ -183,24 +233,5 @@ pre {
         content: "";
         display: table;
         clear: both;
-    }
-}
-
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
     }
 }

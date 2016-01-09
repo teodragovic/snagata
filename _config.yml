@@ -8,12 +8,12 @@
 # Site settings
 title: Snagata
 email: teo.dragovic@gmail.com
-permalink: /:year/:month/:day/:title/
+permalink: /log/:year/:month/:day/:title/
 date_format: "%F"
 description: > # this means to ignore newlines until "baseurl:"
   Training log
 baseurl: "/snagata" # the subpath of your site, e.g. /blog
-url: "http://teodragovic.com" # the base hostname & protocol for your site
+url: "https://teodragovic.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -22,4 +22,7 @@ kramdown:
   input: GFM
 
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 5
+
+exclude: [backup]
+include: [public]
