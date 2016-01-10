@@ -18,15 +18,15 @@ layout: default
 
     <div class="pagination">
         {% if paginator.previous_page %}
-            <a href="/snagata{{ paginator.previous_page_path }}" class="previous">Previous</a>
+            <a href="/snagata{{ paginator.previous_page_path }}" class="previous">Novije</a>
         {% else %}
-            <span class="previous">Previous</span>
+            <span class="previous">Novije</span>
         {% endif %}
-        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        <span class="page_number ">{{ paginator.page }} / {{ paginator.total_pages }}</span>
         {% if paginator.next_page %}
-            <a href="/snagata{{ paginator.next_page_path }}" class="next">Next</a>
+            <a href="/snagata{{ paginator.next_page_path }}" class="next">Starije</a>
         {% else %}
-            <span class="next ">Next</span>
+            <span class="next ">Starije</span>
         {% endif %}
     </div>
 
