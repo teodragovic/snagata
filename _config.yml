@@ -24,5 +24,5 @@ kramdown:
 gems: [jekyll-paginate]
 paginate: 5
 
-exclude: [backup]
+exclude: [backup, Rakefile]
 include: [public]
