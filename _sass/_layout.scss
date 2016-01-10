@@ -11,7 +11,8 @@
     color: $background-color;
     &:hover,
     &:focus {
-        color: $background-color;
+        color: darken($background-color, 10);
+        text-decoration: none;
     }
 }
 
@@ -64,6 +65,7 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        padding-top: $spacing-unit / 2;
     }
 
     article { margin-bottom: 40px; }
@@ -106,6 +108,8 @@
 
     h2 {
         font-size: 32px;
+        line-height: 1;
+        margin-top: $spacing-unit;
 
         @include media-query($on-laptop) {
             font-size: 28px;
