@@ -7,12 +7,12 @@ comments: true
 
 [Mistura rehab](/snagata/log/2015/07/20/mistura-rehab/)
 
-a1 external band rotation 4x15
-a2 lateral fly 4x15 @ 3kg
-a3 db military press 4x15 @ 5kg
+a1 external band rotation 4x15  
+a2 lateral fly 4x15 @ 3kg  
+a3 db military press 4x15 @ 5kg  
 
-leđna ekstenzija 4x12
-iskorak 4x10 @ 5kg
+leđna ekstenzija 4x12  
+iskorak 4x10 @ 5kg  
 
 croc rows 3x20 @ 12.5kg
 
