@@ -10,7 +10,7 @@ comments: true
 čučanj 6x6 @ 50kg  
 bench 6x6 @ 42.5kg  
 
-incline dumbell press 4x12 @ 15kg
+incline dumbell press 4x12 @ 15kg  
 
 side plank 3x30 sec.  
 crunch 3x15-20  

@@ -8,7 +8,7 @@ comments: true
 side plank 4x30 sec.  
 leg raise na kosoj klupi 4x max.  
 
-HIIT bicikla 4min. @ 45/15
+HIIT bicikla 4min. @ 45/15  
 ergometar 1000m  
 hodanje na kosoj traci 20 min.  
 ergometar 1000m  

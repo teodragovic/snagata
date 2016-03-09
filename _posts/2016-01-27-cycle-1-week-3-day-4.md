@@ -13,7 +13,7 @@ a2 db military press 4x15 @ 5kg
 Romanian DL 4x20 @ 20kg  
 iskorak 4x10 @ 6kg  
 
-croc rows 3x20 @ 12.5kg
+croc rows 3x20 @ 12.5kg  
 
 lagano trčanje na traci 15min.  
 

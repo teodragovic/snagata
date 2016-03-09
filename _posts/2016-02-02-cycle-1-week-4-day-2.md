@@ -12,8 +12,8 @@ military
 - 2x10 @ 20kg  
 good morning 3x20 @ 30,35,40kg  
 
-a1 face pulls 4x
-a2 cable row 4x
+a1 face pulls 4x  
+a2 cable row 4x  
 
 b1 overhead shrug 4x15 @ 6kg  
 b2 pullover sajlom 4x15  
