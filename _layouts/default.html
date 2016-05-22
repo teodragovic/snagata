@@ -15,6 +15,7 @@
 
         {% include footer.html %}
 
+        <script src="{{ "/scripts/main.js" | prepend: site.baseurl }}"></script>
         <script>
             var disqus_shortname = 'snagata';
             {% if page.comments == true %}
@@ -28,8 +29,8 @@
                 var disqus_script = 'count.js';
             {% endif %}
             (function () {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+                var dsq = document.createElement('script'); dsq.async = true;
+                dsq.src = 'https://' + disqus_shortname + '.disqus.com/' + disqus_script;
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             }());
         </script>
