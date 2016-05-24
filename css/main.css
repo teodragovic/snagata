@@ -384,7 +384,7 @@ html {
  * Basic styling
  */
 body {
-  font: 400 85%/1.4 "Roboto", sans-serif;
+  font: 400 85%/1.4 sans-serif;
   color: #444;
   background-color: #fefefe;
   -webkit-text-size-adjust: 100%;
@@ -401,6 +401,9 @@ body {
   @media screen and (min-width: 600px) {
     body {
       font-size: 100%; } }
+
+.wf-active {
+  font-family: "Roboto", sans-serif; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
