@@ -6,6 +6,12 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+    <link rel="preconnect" href="https://teodragovic.com">
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://snagata.disqus.com">
+    <link rel="preload" href="{{ "/css/main.css" | prepend: site.baseurl }}?v=4" as="style">
+    <link rel="preload" href="{{ "/scripts/main.js" | prepend: site.baseurl }}?v=1" as="script">
+
     {% include favicon.html %}
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?v=4">
