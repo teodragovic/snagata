@@ -54,12 +54,12 @@ body {
     @include at-min($on-palm) {
         font-size: 100%;
     }
-}
 
-.wf-active {
-    font-family: $base-font-family;
-}
+    .wf-active & {
+        font-family: $base-font-family;
+    }
 
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
