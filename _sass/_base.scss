@@ -35,7 +35,7 @@ html {
  * Basic styling
  */
 body {
-    font: $base-font-weight 85%/#{$base-line-height} $base-font-family;
+    font: $base-font-weight 85%/#{$base-line-height} sans-serif;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -56,6 +56,9 @@ body {
     }
 }
 
+.wf-active {
+    font-family: $base-font-family;
+}
 
 
 /**
