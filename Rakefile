@@ -5,7 +5,8 @@ require "stringex"
 ## -- Configs -- ##
 
 deploy_branch   = "gh-pages"
-deploy_dir      = "_site"   # deploy directory (for Github pages deployment)
+deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
+public_dir      = "_site"     # build directory
 posts_dir       = "_posts"    # directory for blog files
 new_post_ext    = "md"        # default new post file extension when using the new_post task
 
@@ -60,6 +61,9 @@ end
 desc "Deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
+  (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
+  puts "\n## copying #{public_dir} to #{deploy_dir}"
+  cp_r "#{public_dir}/.", deploy_dir
   cd "#{deploy_dir}" do
     system "git add ."
     system "git add -u"
