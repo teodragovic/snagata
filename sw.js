@@ -4,7 +4,7 @@
 (function() {
 
     const staticCacheName = 'static';
-    const version = 'v12::';
+    const version = 'v14::';
 
     const urlsToCache = [
         '/snagata/',
@@ -16,9 +16,7 @@
 
     function updateStaticCache() {
         return caches.open(version + staticCacheName)
-            .then(cache => {
-                return cache.addAll(urlsToCache);
-            });
+            .then(cache => cache.addAll(urlsToCache));
     };
 
     function putToCache(request, response) {
@@ -28,8 +26,8 @@
                 .then(cache => {
                     cache.put(request, copy);
                 });
-            return response;
         }
+        return response;
     };
 
     function doesRequestAcceptHtml(request) {
@@ -66,18 +64,17 @@
 
 
     self.addEventListener('activate', (event) => {
+        function onActivate() {
+            return caches.keys()
+                .then(cacheKeys => {
+                    var oldCacheKeys = cacheKeys.filter(key => key.indexOf(version) !== 0);
+                    var deletePromises = oldCacheKeys.map(oldKey => caches.delete(oldKey));
+                    return Promise.all(deletePromises);
+                });
+        }
+
         event.waitUntil(
-            caches.keys()
-            .then((cacheNames) => {
-                return Promise.all(cacheNames
-                    .filter((key) => {
-                        return key.indexOf(version) !== 0;
-                    })
-                    .map((key) => {
-                        return caches.delete(key);
-                    })
-                );
-            })
+            onActivate()
             .then(() => self.clients.claim())
         );
     });
@@ -124,11 +121,6 @@
                 const copy = request.clone();
                 return response || fetch(copy)
                     .then((response) => {
-                        if (!response ||
-                            response.status !== 200 ||
-                            response.type !== 'basic') {
-                            return response;
-                        }
                         return putToCache(request, response);
                     })
                     .catch(unableToResolve(request));
