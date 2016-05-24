@@ -401,9 +401,8 @@ body {
   @media screen and (min-width: 600px) {
     body {
       font-size: 100%; } }
-
-.wf-active {
-  font-family: "Roboto", sans-serif; }
+  .wf-active body {
+    font-family: "Roboto", sans-serif; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
