@@ -4,7 +4,7 @@
 (function() {
 
     const staticCacheName = 'static';
-    const version = 'v14::';
+    const version = 'v55::';
 
     const urlsToCache = [
         '/snagata/',
@@ -88,8 +88,7 @@
         if (request.method !== 'GET') return;
 
         if (doesRequestAcceptHtml(request)) {
-            // Fix for Chrome bug: https://code.google.com/p/chromium/issues/detail?id=573937
-            // and https://gist.github.com/jakearchibald/aff93cad208bd56a02ea70f9f0d01c99
+
             if (request.mode != 'navigate') {
                 request = new Request(request.url, {
                     method: 'GET',
@@ -102,30 +101,33 @@
 
             event.respondWith(
                 fetch(request)
-                .then((response) => {
+                .then(response => {
                     return putToCache(request, response);
                 })
                 .catch(() => {
                     return caches.match(request)
-                        .then((response) => {
+                        .then(response => {
                             return response || offlineResponse();
                         })
                 })
             );
-            return;
+
+        } else {
+
+            event.respondWith(
+                caches.match(request)
+                .then(response => {
+                    const copy = request.clone();
+                    return response || fetch(copy, { mode: 'cors' })
+                        .then(fetchResponse => {
+                            return putToCache(request, fetchResponse);
+                        })
+                        .catch(() => unableToResolve(request));
+                })
+            );
+
         }
 
-        event.respondWith(
-            caches.match(request)
-            .then((response) => {
-                const copy = request.clone();
-                return response || fetch(copy)
-                    .then((response) => {
-                        return putToCache(request, response);
-                    })
-                    .catch(unableToResolve(request));
-            })
-        );
 
     });
 

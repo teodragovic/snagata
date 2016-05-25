@@ -26,12 +26,10 @@
                         installingWorker.onstatechange = function() {
                             switch (installingWorker.state) {
                                 case 'installed':
-                                    console.log('refresh for new content');
+                                    console.log('Refresh for new content.');
                                     break;
-
                                 case 'redundant':
-                                    throw new Error('The installing ' +
-                                        'service worker became redundant.');
+                                    throw new Error('The installing service worker became redundant.');
                             }
                         };
                     }
