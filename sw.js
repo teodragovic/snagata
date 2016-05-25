@@ -8,7 +8,7 @@
 
     const urlsToCache = [
         '/snagata/',
-        '/snagata/css/main.css?v=4',
+        '/snagata/css/main.css?v=5',
         '/snagata/scripts/main.js?v=1'
     ];
 
