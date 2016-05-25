@@ -4,7 +4,7 @@
 (function() {
 
     const staticCacheName = 'static';
-    const version = 'v55::';
+    const version = 'v20::';
 
     const urlsToCache = [
         '/snagata/',
@@ -37,7 +37,6 @@
     };
 
     function unableToResolve(request) {
-        const url = new URL(request.url);
         const accepts = request.headers.get('Accept');
         if (accepts.indexOf('image') !== -1) {
             return new Response(imgPlaceholder, { headers: { 'Content-Type': 'image/svg+xml' } });
@@ -59,7 +58,7 @@
         event.waitUntil(
             updateStaticCache()
             .then(() => self.skipWaiting())
-        )
+        );
     });
 
 
@@ -71,7 +70,7 @@
                     var deletePromises = oldCacheKeys.map(oldKey => caches.delete(oldKey));
                     return Promise.all(deletePromises);
                 });
-        }
+        };
 
         event.waitUntil(
             onActivate()
@@ -84,8 +83,10 @@
     self.addEventListener('fetch', (event) => {
 
         let request = event.request;
+        const url = new URL(request.url);
 
-        if (request.method !== 'GET') return;
+        if (request.method !== 'GET' ||
+            url.origin !== self.location.origin) return;
 
         if (doesRequestAcceptHtml(request)) {
 
@@ -118,11 +119,11 @@
                 caches.match(request)
                 .then(response => {
                     const copy = request.clone();
-                    return response || fetch(copy, { mode: 'cors' })
+                    return response || fetch(copy)
                         .then(fetchResponse => {
                             return putToCache(request, fetchResponse);
                         })
-                        .catch(() => unableToResolve(request));
+                        .catch(() => unableToResolve(request, url));
                 })
             );
 
