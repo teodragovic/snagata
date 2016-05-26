@@ -10,7 +10,7 @@
     <meta name="description" content="Week 1, Day 3">
 
     <link rel="preconnect" href="https://teodragovic.com">
-    <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="https://snagata.disqus.com">
     <link rel="preload" href="/snagata/css/main.css?v=5" as="style">
     <link rel="preload" href="/snagata/scripts/main.js?v=1" as="script">
@@ -42,18 +42,22 @@
 
     <link rel="stylesheet" href="/snagata/css/main.css?v=5">
     <script>
-        (function(d) {
+        (function(d, w) {
             if (d.cookie.replace(/(?:(?:^|.*;\s*)webfont\s*\=\s*([^;]*).*$)|^.*$/, "$1")) {
                 d.documentElement.className += ' wf-active'; return;
             }
-            window.WebFontConfig = {
-                custom: { families: ['Roboto'] },
-                active: function() { d.cookie = 'webfont=true'; }
-            };
+            function activateFonts() {
+                var n4 = new w.FontFaceObserver('Roboto', { weight: 400 });
+                var n7 = new w.FontFaceObserver('Roboto', { weight: 700 });
+                var i4 = new w.FontFaceObserver('Roboto', { weight: 400, style: 'italic' });
+                w.Promise
+                    .all([n4.load(), n7.load(), i4.load()])
+                    .then(function(){ d.documentElement.className += ' wf-active'; d.cookie = 'webfont=true'; });
+            }
             var wf = d.createElement('script'), s = d.scripts[0]; wf.async = true;
-            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-            s.parentNode.insertBefore(wf, s);
-        })(document);
+            wf.src = 'https://cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/1.7.1/fontfaceobserver.min.js';
+            wf.onload = activateFonts; s.parentNode.insertBefore(wf, s);
+        })(document, window);
     </script>
 
     <link rel="canonical" href="https://teodragovic.com/snagata/log/2013/09/14/training-log-73/">
@@ -179,7 +183,7 @@
         <p class="post-meta">
             <time datetime="2013-09-14T00:00:00+02:00" itemprop="datePublished">14. 09. 2013.</time>
         </p>
-        <h1 class="post-title" itemprop="name headline">Training log #73</h1>
+        <h1 class="post-title" itemprop="name headline"><strong>Training log #73</strong></h1>
     </header>
 
     <div class="post-content" itemprop="articleBody">
