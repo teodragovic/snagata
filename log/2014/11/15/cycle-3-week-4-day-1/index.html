@@ -42,10 +42,14 @@
 
     <link rel="stylesheet" href="/snagata/css/main.css?v=5">
     <script>
-        WebFontConfig = {
-            custom: { families: ['Roboto'] }
-        };
         (function(d) {
+            if (d.cookie.replace(/(?:(?:^|.*;\s*)webfont\s*\=\s*([^;]*).*$)|^.*$/, "$1")) {
+                d.documentElement.className += ' wf-active'; return;
+            }
+            window.WebFontConfig = {
+                custom: { families: ['Roboto'] },
+                active: function() { d.cookie = 'webfont=true'; }
+            };
             var wf = d.createElement('script'), s = d.scripts[0]; wf.async = true;
             wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
             s.parentNode.insertBefore(wf, s);
@@ -228,11 +232,10 @@ Kosi potisak bučicama 4x12 @ 17.5kg</p>
         this.page.url = 'https://teodragovic.com/log/2014/11/15/cycle-3-week-4-day-1/';
         this.page.identifier = '/log/2014/11/15/cycle-3-week-4-day-1/';
     };
-    (function () {
-        var dsq = document.createElement('script'); dsq.async = true;
-        dsq.src = 'https://snagata.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
+    (function(d) {
+        var dsq = document.createElement('script'), s = d.scripts[0]; dsq.async = true;
+        dsq.src = 'https://snagata.disqus.com/embed.js'; s.parentNode.insertBefore(dsq, s);
+    })(document);
 </script>
 
 
