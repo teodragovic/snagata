@@ -10,8 +10,7 @@ title: Snagata
 email: teo.dragovic@gmail.com
 permalink: /log/:year/:month/:day/:title/
 date_format: "%F"
-description: > # this means to ignore newlines until "baseurl:"
-  Training log
+description: "Training log"
 baseurl: "/snagata" # the subpath of your site, e.g. /blog
 url: "https://teodragovic.com" # the base hostname & protocol for your site
 
@@ -27,3 +26,8 @@ paginate_path: "page:num/"
 
 exclude: [backup, Rakefile]
 include: [public]
+
+# Versioning for static assets
+css: 5
+js: 1
+sw: 21

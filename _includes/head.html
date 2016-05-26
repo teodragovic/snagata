@@ -9,17 +9,21 @@
     <link rel="preconnect" href="https://teodragovic.com">
     <link rel="dns-prefetch" href="https://ajax.googleapis.com">
     <link rel="dns-prefetch" href="https://snagata.disqus.com">
-    <link rel="preload" href="{{ "/css/main.css" | prepend: site.baseurl }}?v=4" as="style">
-    <link rel="preload" href="{{ "/scripts/main.js" | prepend: site.baseurl }}?v=1" as="script">
+    <link rel="preload" href="{{ "/css/main.css" | prepend: site.baseurl }}?v={{ site.css }}" as="style">
+    <link rel="preload" href="{{ "/scripts/main.js" | prepend: site.baseurl }}?v={{ site.js }}" as="script">
 
     {% include favicon.html %}
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?v=4">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?v={{ site.css }}">
     <script>
-        WebFontConfig = {
-            custom: { families: ['Roboto'] }
-        };
         (function(d) {
+            if (d.cookie.replace(/(?:(?:^|.*;\s*)webfont\s*\=\s*([^;]*).*$)|^.*$/, "$1")) {
+                d.documentElement.className += ' wf-active'; return;
+            }
+            window.WebFontConfig = {
+                custom: { families: ['Roboto'] },
+                active: function() { d.cookie = 'webfont=true'; }
+            };
             var wf = d.createElement('script'), s = d.scripts[0]; wf.async = true;
             wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
             s.parentNode.insertBefore(wf, s);

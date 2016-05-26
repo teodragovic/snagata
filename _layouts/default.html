@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="hr">
 
     {% include head.html %}
 
@@ -15,18 +15,7 @@
 
         {% include footer.html %}
 
-        <script src="{{ "/scripts/main.js" | prepend: site.baseurl }}?v=1" async defer></script>
-        {% if page.comments == true %}
-        <script>
-            var disqus_identifier = '{{ site.url }}{{ page.url }}';
-            var disqus_url = '{{ site.url }}{{ page.url }}';
-            (function () {
-                var dsq = document.createElement('script'); dsq.async = true;
-                dsq.src = 'https://snagata.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            }());
-        </script>
-        {% endif %}
+        {% include scripts.html %}
 
     </body>
 

@@ -1,15 +1,20 @@
+---
+---
+
 /* eslint-disable */
 'use strict';
 
 (function() {
 
     const staticCacheName = 'static';
-    const version = 'v14::';
+    const version = 'v{{ site.sw }}::';
 
     const urlsToCache = [
         '/snagata/',
-        '/snagata/css/main.css?v=4',
-        '/snagata/scripts/main.js?v=1'
+        '/snagata/index.html',
+        '/snagata/index.html?homescreen',
+        '/snagata/css/main.css?v={{ site.css }}',
+        '/snagata/scripts/main.js?v={{ site.js }}'
     ];
 
     const imgPlaceholder = '<svg width="400" height="300" role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#D8D8D8" d="M0 0h400v300H0z"/><text fill="#9B9B9B" font-family="Helvetica Neue,Arial,Helvetica,sans-serif" font-size="72" font-weight="bold"><tspan x="93" y="172">offline</tspan></text></g></svg>';
@@ -37,7 +42,6 @@
     };
 
     function unableToResolve(request) {
-        const url = new URL(request.url);
         const accepts = request.headers.get('Accept');
         if (accepts.indexOf('image') !== -1) {
             return new Response(imgPlaceholder, { headers: { 'Content-Type': 'image/svg+xml' } });
@@ -59,7 +63,7 @@
         event.waitUntil(
             updateStaticCache()
             .then(() => self.skipWaiting())
-        )
+        );
     });
 
 
@@ -71,7 +75,7 @@
                     var deletePromises = oldCacheKeys.map(oldKey => caches.delete(oldKey));
                     return Promise.all(deletePromises);
                 });
-        }
+        };
 
         event.waitUntil(
             onActivate()
@@ -84,12 +88,13 @@
     self.addEventListener('fetch', (event) => {
 
         let request = event.request;
+        const url = new URL(request.url);
 
-        if (request.method !== 'GET') return;
+        if (request.method !== 'GET' ||
+            url.origin !== self.location.origin) return;
 
         if (doesRequestAcceptHtml(request)) {
-            // Fix for Chrome bug: https://code.google.com/p/chromium/issues/detail?id=573937
-            // and https://gist.github.com/jakearchibald/aff93cad208bd56a02ea70f9f0d01c99
+
             if (request.mode != 'navigate') {
                 request = new Request(request.url, {
                     method: 'GET',
@@ -102,30 +107,33 @@
 
             event.respondWith(
                 fetch(request)
-                .then((response) => {
+                .then(response => {
                     return putToCache(request, response);
                 })
                 .catch(() => {
                     return caches.match(request)
-                        .then((response) => {
+                        .then(response => {
                             return response || offlineResponse();
                         })
                 })
             );
-            return;
+
+        } else {
+
+            event.respondWith(
+                caches.match(request)
+                .then(response => {
+                    const copy = request.clone();
+                    return response || fetch(copy)
+                        .then(fetchResponse => {
+                            return putToCache(request, fetchResponse);
+                        })
+                        .catch(() => unableToResolve(request, url));
+                })
+            );
+
         }
 
-        event.respondWith(
-            caches.match(request)
-            .then((response) => {
-                const copy = request.clone();
-                return response || fetch(copy)
-                    .then((response) => {
-                        return putToCache(request, response);
-                    })
-                    .catch(unableToResolve(request));
-            })
-        );
 
     });
 
