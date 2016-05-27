@@ -30,4 +30,4 @@ include: [public]
 # Versioning for static assets
 css: 5
 js: 1
-sw: 21
+sw: 22
