@@ -8,7 +8,9 @@
             <a class="page-link" href="http://www.myfitnesspal.com/teodragovic" target="_blank">Prehrana</a>
             {% for my_page in site.pages %}
                 {% if my_page.title %}
-                <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                    {% unless my_page.url contains 'amp' %}
+                    <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                    {% endunless %}
                 {% endif %}
             {% endfor %}
         </nav>

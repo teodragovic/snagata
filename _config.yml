@@ -27,7 +27,11 @@ paginate_path: "page:num/"
 exclude: [backup, Rakefile]
 include: [public]
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # Versioning for static assets
-css: 5
+css: 6
 js: 1
 sw: 22

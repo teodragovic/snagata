@@ -1,0 +1,48 @@
+---
+amp: true
+---
+<!doctype html>
+<html amp lang="hr">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <style amp-custom>
+            {% capture include_to_sassify %}
+                {% include amp.scss %}
+            {% endcapture %}
+            {{ include_to_sassify | scssify }}
+        </style>
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+        <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+    </head>
+
+    <body>
+        {% include header.html %}
+
+        <main role="main" class="page-content">
+            <div class="wrapper">
+
+                <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+                    <header class="post-header">
+                        <p class="post-meta">
+                            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d. %m. %Y." }}</time>
+                        </p>
+                        <h1 class="post-title" itemprop="name headline"><strong>{{ page.title }}</strong></h1>
+                    </header>
+
+                    <div class="post-content" itemprop="articleBody">
+                        {{ page.body | markdownify | amp_img }}
+                    </div>
+
+                </article>
+
+            </div>
+        </main>
+
+        {% include footer.html %}
+    </body>
+</html>
