@@ -19,7 +19,7 @@ Prvi tjedan tijelo je funkcioniralo normalno i najveći problem je bila psiha i 
 
 Pad na vagi i u mjerama nije išao linearno i bilo je oscilacija. Ovo je tablica sa mjerama koje sam uzeo svaki vikend ujutro natašte.
 
-<div class="embed-video-container"><iframe height="210" frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AqcWi5XS2oqxdEtNaGhTdUoxU0RrRVVYV0hwMnZDTmc&single=true&gid=1&output=html&widget=true'></iframe></div>
+<div class="youtube-embed"><iframe height="210" frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AqcWi5XS2oqxdEtNaGhTdUoxU0RrRVVYV0hwMnZDTmc&single=true&gid=1&output=html&widget=true'></iframe></div>
 
 ### Punjenje
 
@@ -35,9 +35,9 @@ Punjenje sam odradio 01.02. nakon treninga. Prva dva obroka u danu su bila stand
 - 200g keksa sa zobi, pšenicom i brusnicom iz Lidla
 - malo čajnih keksiju iz Mlinara (oko 250g)
 
-{% img images/punjenje02.JPG %}
-{% img images/punjenje04.JPG %}
-{% img images/punjenje03.JPG %}
+![](/snagata/images/punjenje02.JPG)
+![](/snagata/images/punjenje04.JPG)
+![](/snagata/images/punjenje03.JPG)
 
 Glavninu navedenog (čitaj 80%) riješio sam u obroku nakon treninga. Znao sam da zbog dijete ne mogu u jednom obroku pojesti dovoljno da se napunim pa sam planirao rasporediti na dva ali sam bio prehalapljiv i prejeo se i napuhnuo u tom prvom obroku. Nakon njega sam pojeo nešto malo keksa dok sam gledao serije i zaspao preliven navalom inzulina. Probudio sam se oko 5.30 i riješio ostatak keksiju, kruha i pekmeza uz pola litre mlijeka.
 
