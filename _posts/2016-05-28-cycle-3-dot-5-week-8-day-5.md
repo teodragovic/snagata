@@ -19,5 +19,3 @@ A1 Landmine press 4x15
 A2 Arnold press 4x10 @ 4kg  
 
 Spavao na lijevom boku i nagnječio rame, znači sjebano sve od ustajanja. Izbacio sklekove al rame je svejedno jebalo na kablovima, mada manje. Mislim da ću morati i smanjiti volumen. Nisam baš imao fokusa danas, dosta rastresen. Arndol press neće ići, totalno me ubilo u lijevom deltoidu.  
-
-{% youtube DvkHs1r69V8 %}
