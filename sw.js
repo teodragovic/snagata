@@ -53,11 +53,7 @@
     }
 
     function offlineResponse() {
-        return new Response('<h1>Service Unavailable</h1>', {
-            status: 503,
-            statusText: 'Service Unavailable',
-            headers: new Headers({ 'Content-Type': 'text/html' })
-        });
+        return caches.match('/snagata/offline/');
     }
 
     self.addEventListener('install', event => {
