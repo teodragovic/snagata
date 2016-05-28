@@ -23,9 +23,9 @@
             function activateFonts() {
                 var n4 = new w.FontFaceObserver('Roboto', { weight: 400 });
                 var n7 = new w.FontFaceObserver('Roboto', { weight: 700 });
-                var i4 = new w.FontFaceObserver('Roboto', { weight: 400, style: 'italic' });
+                //var i4 = new w.FontFaceObserver('Roboto', { weight: 400, style: 'italic' });
                 w.Promise
-                    .all([n4.load(), n7.load(), i4.load()])
+                    .all([n4.load(), n7.load()])
                     .then(function(){ d.documentElement.className += ' wf-active'; d.cookie = 'webfont=true'; });
             }
             var wf = d.createElement('script'), s = d.scripts[0]; wf.async = true;
@@ -35,5 +35,8 @@
     </script>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% if page.url contains 'log' %}
+        <link rel="alternate amphtml" type="text/html" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | append: 'amp' }}">
+    {% endif %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
