@@ -55,19 +55,19 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media all and (max-width: $device) {
         @content;
     }
 }
 
 @mixin at-min($size) {
-    @media screen and (min-width: $size) {
+    @media all and (min-width: $size) {
         @content;
     }
 }
 
 @mixin at-max($size) {
-    @media screen and (max-width: $size) {
+    @media all and (max-width: $size) {
         @content;
     }
 }
