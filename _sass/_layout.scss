@@ -1,7 +1,29 @@
 
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: $content-width;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit * 2;
+    padding-left: $spacing-unit * 2;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
+    }
+
+    @include media-query($on-palm) {
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
 
 .site-title {
-    font-size: 30px;
+    font-size: $spacing-unit;
     font-weight: 300;
     text-transform: uppercase;
     line-height: 1;
@@ -22,7 +44,7 @@
 
     .page-link {
         color: $background-color;
-        line-height: 30px;
+        line-height: $spacing-unit;
         &:hover,
         &:focus {
             color: $background-color;
@@ -30,7 +52,7 @@
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: em(20);
         }
     }
 
@@ -40,8 +62,8 @@
 
 .site-header,
 .site-footer {
-    padding: 40px 0;
-    background: #333;
+    padding: em(($spacing-unit * 1.5) / 1px) 0;
+    background: $dark-bg;
     color: $background-color;
 }
 
@@ -55,8 +77,8 @@
  * Page content
  */
 .page-content {
-    padding: 40px 0;
-    flex: 1 1 auto;
+    padding: em(($spacing-unit * 1.5) / 1px) 0;
+    flex: 1 2 auto;
 }
 
 .post-list {
@@ -68,7 +90,7 @@
         padding-top: $spacing-unit / 2;
     }
 
-    article { margin-bottom: 40px; }
+    article { margin-bottom: $spacing-unit; }
 }
 
 .post-meta {
@@ -107,29 +129,29 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: em(32);
         line-height: 1;
         margin-top: $spacing-unit;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: em(28);
         }
     }
 
     h3 {
-        font-size: 26px;
+        font-size: em(26);
         text-transform: capitalize;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: em(22);
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: em(20);
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: em(18);
         }
     }
 }
