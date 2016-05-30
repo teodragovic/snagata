@@ -10,7 +10,7 @@
         '/snagata/',
         '/snagata/index.html',
         '/snagata/index.html?homescreen',
-        '/snagata/css/main.css?v=7',
+        '/snagata/css/main.css?v=8',
         '/snagata/scripts/main.js?v=1',
         '/snagata/offline/'
     ];
