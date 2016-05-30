@@ -4,7 +4,7 @@
 (function() {
 
     const staticCacheName = 'static';
-    const version = 'v22::';
+    const version = 'v23::';
 
     const urlsToCache = [
         '/snagata/',
