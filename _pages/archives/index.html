@@ -12,7 +12,6 @@ footer: false
       <h2>{{ year }}</h2>
     {% endunless %}
     <article>
-        {% capture category %}{{ post.categories | size }}{% endcapture %}
         <p class="post-meta">
             <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>
                 {{ post.date | date: "<span class='day'>%d</span>.<span class='month'>%m</span>.<span class='year'>%Y</span>"}}
