@@ -1,9 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
 title: Snagata
@@ -20,12 +14,13 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+# incremental: true
+
 gems: [jekyll-paginate]
 paginate: 10
 paginate_path: "page:num/"
 
 exclude: [backup, Rakefile]
-include: [public]
 
 sass:
   sass_dir: _sass
@@ -34,4 +29,4 @@ sass:
 # Versioning for static assets
 css: 8
 js: 1
-sw: 22
+sw: 24
