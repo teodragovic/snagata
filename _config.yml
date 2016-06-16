@@ -27,6 +27,6 @@ sass:
   style: compressed
 
 # Versioning for static assets
-css: 8
+css: 9
 js: 1
-sw: 24
+sw: 25

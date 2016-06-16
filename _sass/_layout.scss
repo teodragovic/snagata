@@ -31,6 +31,7 @@
     margin-bottom: 0;
     float: left;
     color: $background-color;
+    text-decoration: none;
     &:hover,
     &:focus {
         color: darken($background-color, 10);
@@ -45,9 +46,11 @@
     .page-link {
         color: $background-color;
         line-height: $spacing-unit;
+        text-decoration: none;
         &:hover,
         &:focus {
             color: $background-color;
+            text-decoration: underline;
         }
 
         // Gaps between nav items, but not on the last one
@@ -94,13 +97,14 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: em($small-font-size);
     color: $grey-color-dark;
     margin-bottom: 0;
+    letter-spacing: track(50);
 }
 
 .post-link {
-    display: block;
+    display: inline-block;
     font-size: 24px;
     text-transform: capitalize;
 }

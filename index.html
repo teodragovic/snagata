@@ -9,9 +9,14 @@ layout: default
     <ul class="post-list">
     {% for post in paginator.posts %}
         <li>
-            <time class="post-meta">{{ post.date | date: "%d. %m. %Y." }}</time>
+            <time class="post-meta">{{ post.date | date: "%d.%m.%Y." }}</time>
             <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            <article>{{ post.content }}</article>
+            <article>
+                {{ post.content }}
+                {% if post.grade %}
+                    <p><strong>{{ post.grade }}/10</strong></p>
+                {% endif %}
+            </article>
         </li>
     {% endfor %}
     </ul>

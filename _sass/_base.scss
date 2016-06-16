@@ -38,11 +38,13 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
     font-kerning: normal;
+    font-variant-ligatures: common-ligatures contextual;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "alt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
+
 
     position: relative;
     margin: 0 auto;
@@ -58,6 +60,15 @@ body {
         font-family: $base-font-family;
     }
 
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ */
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
 }
 
 /**
@@ -135,17 +146,11 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
-    color: $brand-color;
-    text-decoration: none;
+a:not(.site-title):not(.page-link) {
 
-/*     &:visited {
-    color: darken($brand-color, 15%);
-} */
-
+    @include link-underline($background-color, $brand-color);
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        @include link-underline($background-color, $text-color);
     }
 }
 

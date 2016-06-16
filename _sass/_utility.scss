@@ -1,6 +1,31 @@
 
 /* FUNCTIONS */
 
+
+/// Slightly lighten a color
+/// @access public
+/// @param {Color} $color - color to tint
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+/// Slightly darken a color
+/// @access public
+/// @param {Color} $color - color to shade
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
+
+// Type tracking
+@function track($val) {
+    @return #{$val/1000}em;
+}
+
+// px to em converter
 @function em($font-px, $base: $base-font-size) {
     @return #{$font-px/$base}em;
 }
@@ -125,4 +150,50 @@ $on-laptop:         800px;
 
 @mixin relative($args) {
     @include position(relative, $args);
+}
+
+
+@mixin text-underline-crop($background) {
+    text-shadow: .03em 0 $background, -.03em 0 $background, 0 .03em $background, 0 -.03em $background, .06em 0 $background, -.06em 0 $background, .09em 0 $background, -.09em 0 $background, .12em 0 $background, -.12em 0 $background, .15em 0 $background, -.15em 0 $background;
+}
+
+
+@mixin text-background($color-bg, $color-text) {
+    background-image: linear-gradient($color-text, $color-text);
+    background-size: 1px 1px;
+    background-repeat: repeat-x;
+    background-position: 0% 89%;
+}
+
+@mixin text-selection($selection) {
+    &::selection {
+        @include text-underline-crop($selection);
+        background: $selection;
+    }
+    &::-moz-selection {
+        @include text-underline-crop($selection);
+        background: $selection;
+    }
+}
+
+@mixin link-underline($background, $text) {
+    @include text-underline-crop($background);
+    @include text-background($background, $text);
+    @include text-selection(#b3d4fc);
+
+    color: $text;
+    text-decoration: none;
+
+    *,
+    *:after,
+    &:after,
+    *:before,
+    &:before {
+        text-shadow: none;
+    }
+
+    &:visited {
+        color: $text;
+    }
+
 }
