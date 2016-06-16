@@ -4,13 +4,13 @@
 (function() {
 
     const staticCacheName = 'static';
-    const version = 'v24::';
+    const version = 'v25::';
 
     const urlsToCache = [
         '/snagata/',
         '/snagata/index.html',
         '/snagata/index.html?homescreen',
-        '/snagata/css/main.css?v=8',
+        '/snagata/css/main.css?v=9',
         '/snagata/scripts/main.js?v=1',
         '/snagata/offline/'
     ];
