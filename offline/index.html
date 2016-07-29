@@ -46,7 +46,6 @@
             function activateFonts() {
                 var n4 = new w.FontFaceObserver('Roboto', { weight: 400 });
                 var n7 = new w.FontFaceObserver('Roboto', { weight: 700 });
-                //var i4 = new w.FontFaceObserver('Roboto', { weight: 400, style: 'italic' });
                 w.Promise
                     .all([n4.load(), n7.load()])
                     .then(function(){ d.documentElement.className += ' wf-active'; d.cookie = 'webfont=true'; });
@@ -86,6 +85,8 @@
                     
                     <a class="page-link" href="/snagata/archives/">Arhiva</a>
                     
+                
+            
                 
             
                 
