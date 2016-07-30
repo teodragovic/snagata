@@ -46,6 +46,7 @@ task :post, :title do |t, args|
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d')}"
     post.puts "comments: true"
+    post.puts "grade:"
     post.puts "---"
   end
 end

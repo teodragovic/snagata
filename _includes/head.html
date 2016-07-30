@@ -6,11 +6,8 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="preconnect" href="https://teodragovic.com">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="https://snagata.disqus.com">
-    <link rel="preload" href="{{ "/css/main.css" | prepend: site.baseurl }}?v={{ site.css }}" as="style">
-    <link rel="preload" href="{{ "/scripts/main.js" | prepend: site.baseurl }}?v={{ site.js }}" as="script">
 
     {% include favicon.html %}
 
@@ -23,7 +20,6 @@
             function activateFonts() {
                 var n4 = new w.FontFaceObserver('Roboto', { weight: 400 });
                 var n7 = new w.FontFaceObserver('Roboto', { weight: 700 });
-                //var i4 = new w.FontFaceObserver('Roboto', { weight: 400, style: 'italic' });
                 w.Promise
                     .all([n4.load(), n7.load()])
                     .then(function(){ d.documentElement.className += ' wf-active'; d.cookie = 'webfont=true'; });
