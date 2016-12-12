@@ -34,7 +34,7 @@ html {
  * Basic styling
  */
 body {
-    font: $base-font-weight 85%/#{$base-line-height} sans-serif;
+    font: $base-font-weight 100%/#{$base-line-height} sans-serif;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -52,9 +52,6 @@ body {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     display: flex;
     flex-direction: column;
-    @include at-min($on-palm) {
-        font-size: 100%;
-    }
 
     .wf-active & {
         font-family: $base-font-family;

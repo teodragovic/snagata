@@ -17,5 +17,5 @@ Cable reverse pressdown 5x12 @ 10kg
 C1 Biceps pregib obrnuti hvat 4xmax. @ 10-15kg     
 C2 Behind back wrist curls 4xmax. @ 25kg + drop set
 
-D1 Abs 2xmax.
-D2 Running for time 2x1000m
+D1 Abs 2xmax.  
+D2 Running for time 2x1000m  

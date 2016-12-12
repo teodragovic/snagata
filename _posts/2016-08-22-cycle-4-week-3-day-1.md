@@ -3,7 +3,7 @@ layout: post
 title: "cycle 4 week 3 day 1"
 date: 2016-08-22
 comments: true
-grade: 7.5
+grade: 7
 ---
 
 Istezanje
