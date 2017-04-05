@@ -8,6 +8,20 @@ description: "Training log"
 baseurl: "/snagata" # the subpath of your site, e.g. /blog
 url: "https://teodragovic.com" # the base hostname & protocol for your site
 
+collections:
+  old2013:
+    output: true
+    permalink: /:collection/:name
+  old2014:
+    output: true
+    permalink: /:collection/:name
+  old2015:
+    output: true
+    permalink: /:collection/:name
+  old2016:
+    output: true
+    permalink: /:collection/:name
+
 # Build settings
 markdown: kramdown
 
@@ -17,7 +31,7 @@ kramdown:
 # incremental: true
 
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 20
 paginate_path: "page:num/"
 
 exclude: [backup, Rakefile]

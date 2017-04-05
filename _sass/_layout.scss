@@ -61,6 +61,14 @@
 
 }
 
+.site-list {
+    list-style: none;
+    margin-left: 0;
+
+    li {
+        margin-bottom: $spacing-unit;
+    }
+}
 
 
 .site-header,
