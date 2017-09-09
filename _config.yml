@@ -28,7 +28,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-# incremental: true
+incremental: false
 
 gems: [jekyll-paginate]
 paginate: 20
