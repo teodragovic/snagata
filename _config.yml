@@ -21,6 +21,9 @@ collections:
   old2016:
     output: true
     permalink: /:collection/:name
+  old2017:
+    output: true
+    permalink: /:collection/:name
 
 # Build settings
 markdown: kramdown
