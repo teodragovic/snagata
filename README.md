@@ -24,6 +24,16 @@ gem install bundler
 bundle install
 ```
 
+Create deploy directory and setup gh-pages
+
+```
+mkdir _deploy
+cd _deploy
+git init
+git branch -m gh-pages
+git remote add origin git@github.com:teodragovic/snagata.git
+```
+
 ## Commands
 
 Create new post
