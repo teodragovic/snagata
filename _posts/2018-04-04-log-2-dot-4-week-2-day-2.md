@@ -6,6 +6,8 @@ comments: true
 grade:
 ---
 
+(Zagreb)
+
 Istezanje
 
 Squat 5x5     

@@ -6,6 +6,8 @@ comments: true
 grade:
 ---
 
+(Zagreb)
+
 Zagrijavanje
 
 A1 Povlačenje sa donje sajle - konop 5xmax.       
