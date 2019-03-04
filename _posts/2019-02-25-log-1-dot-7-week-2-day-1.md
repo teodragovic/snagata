@@ -1,0 +1,17 @@
+---
+layout: post
+title: "log 1.7 week 2 day 1"
+date: 2019-02-25
+grade:
+---
+
+Istezanje
+
+Čučanj 8x8 @ 65kg      
+Romanian DL 4x12 @ 60kg  
+
+Ekstenzija 4x15 @ 25kg    
+Fleksija 4x15 @ 35kg       
+
+A1 Crunches 4xmax.     
+A2 Leg raise 4xmax.    
