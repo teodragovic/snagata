@@ -1,0 +1,25 @@
+{
+  "name": "snagata",
+  "version": "1.0.0",
+  "description": "Personal training log",
+  "main": ".eleventy.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1",
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teodragovic/snagata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teodragovic/snagata/issues"
+  },
+  "homepage": "https://github.com/teodragovic/snagata#readme"
+}
