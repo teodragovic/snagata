@@ -40,7 +40,7 @@ gems: [jekyll-paginate]
 paginate: 20
 paginate_path: "page:num/"
 
-exclude: [backup, Rakefile]
+exclude: [backup, Rakefile, node_modules]
 
 sass:
   sass_dir: _sass
