@@ -27,6 +27,9 @@ collections:
   old2018:
     output: true
     permalink: /:collection/:name
+  old2019:
+    output: true
+    permalink: /:collection/:name
 
 # Build settings
 markdown: kramdown
